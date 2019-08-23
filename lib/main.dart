@@ -33,8 +33,8 @@ class HomePage extends StatelessWidget {
         child: new ListView(
           children: <Widget>[
             new UserAccountsDrawerHeader(
-              accountName: new Text("Yang Zhang"),
-              accountEmail: new Text("tianna1121@gmail.com"),
+              accountName: new Text("Fred Jonason"),
+              accountEmail: new Text("helloworld@gmail.com"),
               currentAccountPicture: new CircleAvatar(
                 backgroundColor:
                     Theme.of(context).platform == TargetPlatform.iOS
